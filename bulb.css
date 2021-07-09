@@ -1,0 +1,203 @@
+html,body{
+    
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+
+}
+*{
+    position: absolute;
+}
+body{
+    cursor: grab;
+background-color: black;}
+.closed{
+    width: 330px;
+    height: 420px;
+   background-color: white;
+    transform: translate(-50%,-70%);
+    top: 9%;
+    left: 50%;
+    border-radius: 50%;
+    box-shadow: inset -10px -10px 5px rgb(188, 188, 188) ;
+    
+}
+.bottom{
+    width: 150px;
+    height: 220px;
+    background-color: gray;
+    border-radius: 45px 45px 155px 155px;
+    top: 60%;
+    left: 40%;
+    
+}
+.bottom2{
+    width: 180px;
+    height: 200px;
+    background-color: rgb(57, 56, 56);
+    border-radius: 45px 45px 155px 155px;
+    top: 0%;
+    left: -15px;
+    
+}
+.bottom{
+    width: 150px;
+    height: 220px;
+    background-color: gray;
+    border-radius: 45px 45px 155px 155px;
+    top: 60%;
+    left: 40%;
+    
+}
+.bottom3{
+    width: 230px;
+    height: 180px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 45px 45px 155px 155px;
+    top: -6px;
+    left: -40px;
+    
+}
+.holder{
+    width: 90px;
+    height: 100px;
+    background-color: rgb(117, 55, 16);
+    border-radius: 45px 45px 155px 155px;
+    top: 574px;
+    left:42%;
+    overflow: hidden;
+    
+}
+.closed:active{
+    cursor: grabbing;
+    width: 350px;
+    height: 440px;
+   background-color: rgb(232, 232, 81);
+    transform: translate(-50%,-70%);
+    top: 9%;
+    left: 50%;
+    border-radius: 50%;
+    box-shadow: inset -10px -10px 5px rgb(172, 166, 9) ;
+    
+}
+body:active{
+    cursor: grabbing;
+    background-color: rgb(248, 239, 140);
+}
+.text{
+    margin-left: 15px;
+    color:rgb(248, 239, 140);
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border: 5px dotted rgb(248, 239, 140);
+    padding: 15px;
+
+
+}
+.text2{
+    color:rgb(0, 0, 0);
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    right: 15px;
+    border: 5px dotted black;
+    padding: 15px;
+
+} 
+
+.text4{
+    left: 75%;
+    bottom: 5px;
+    margin-left: 15px;
+    color:rgb(248, 239, 140);
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border: 5px dotted rgb(248, 239, 140);
+    padding: 15px;
+
+} 
+.line1{
+    width: 20px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(-75deg);
+    top: 150px;
+    left: 350px;
+}
+.line2{
+    width: 20px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(-60deg);
+    top: 12px;
+    left: 430px;
+}
+.line3{
+    width: 20px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(69deg);
+    top: 320px;
+    left: 350px;
+}
+.line4{
+    width: 20px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(60deg);
+    top: 12px;
+    left: 920px;
+}
+.line5{
+    width: 20px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(79deg);
+    top: 160px;
+    left: 990px;
+}
+.line6{
+    width: 20px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(-69deg);
+    top: 320px;
+    left: 990px;
+}
+.line7{
+    width: 20px;
+    height: 90px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(deg);
+    top: 8px;
+    left:670px;
+}
+.line8{
+    width: 20px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(-60deg);
+    top: 440px;
+    left: 950px;
+}
+.line9{
+    width: 20px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(60deg);
+    top: 440px;
+    left: 390px;
+}
